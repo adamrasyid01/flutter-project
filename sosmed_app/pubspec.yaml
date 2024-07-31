@@ -1,0 +1,33 @@
+name: sosmed_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.0
+  flutter_image_compress: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/posts/
+    - assets/images/profile/
+  
+  fonts:
+    - family: Eater
+      fonts:
+        - asset: assets/fonts/Eater-Regular.ttf
